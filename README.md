@@ -7,7 +7,7 @@ mystoremanager was developed with the intention to manage and keep track of a re
 
 Certain factors such as speed, flexibility and ease of use where considered in building certain features of the application.
 
-mystoremanager takes care of the following:
+mystoremanager manages of the following:
 
 **Users**
 - There are three user types for this application: master admin user(only one), admin user and regular user.
