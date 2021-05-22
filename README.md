@@ -7,7 +7,7 @@ mystoremanager was developed using HTML, CSS, JavaScript, Bootstrap, PHP, JQuery
 
 Certain factors such as speed, flexibility and ease of use where considered in building certain features of the application.
 
-mystoremanager manages of the following:
+mystoremanager manages the following:
 
 **Users**
 - There are three user types for this application: master admin user(only one), admin user and regular user.
