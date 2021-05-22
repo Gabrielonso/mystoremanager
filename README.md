@@ -1,7 +1,7 @@
 # mystoremanager
 A responsive web application for managing and keeping track record of business activities and resources regardless of location with any device.
 
-mystoremanager was developed with the intention to manage and keep track of a retail-wholesaling business operations, where there are several employees, and where inventory and trading of goods are done in two categories:
+mystoremanager was developed using HTML, CSS, JavaScript, Bootstrap, PHP, JQuery and MySql, to manage and handle certain operations of a retail-wholesaling business, where there are several employees and where inventory and trading of goods are done in two categories:
 - Warehouse(or wholesale goods) section where goods are managed in cartons or packs as the case may be.
 - Retail store (or retail goods) section where goods are managed in pieces.
 
@@ -20,7 +20,7 @@ mystoremanager manages of the following:
 
 There are two ways to recover a lost or forgotten password:
 - Through an admin user's account.
-- Account verification by providing your email and certain user's details linked with your acount. A one-time-password will be sent to the registered email for password reset.
+- Account verification by providing user email and certain details linked with your acount. A one-time-password will be sent to the registered email for password reset.
 
 **Dashbord**
 - A section to easily view a summary report of certain transactions and activities.
