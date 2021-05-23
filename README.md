@@ -12,7 +12,7 @@ mystoremanager manages the following:
 **Users**
 - There are three user types for this application: master admin user(only one), admin user and regular user.
 - Privileges to create, read, update and delete certain files or record are based on user type. 
-- New users can only be created through an admin's account, but only the master admin can grant admin privileges to users.
+- New users can only be created through an admin's account, but only the master admin can grant admin privileges to users(or make regular users admin).
 - All users have access to modify/update thier details in the profile section of thier own individual account when signed in.
 - Admins can deactivate and activate users account. But only the master admin can do that for all types of users.
 
@@ -20,7 +20,7 @@ mystoremanager manages the following:
 
 There are two ways to recover a lost or forgotten password:
 - Through an admin user's account.
-- Account verification by providing user email and certain details linked with your acount. A one-time-password will be sent to the registered email for password reset.
+- Account verification by providing user email and certain details linked with their acount. A one-time-password will be sent to the registered email for password reset.
 
 **Dashbord**
 - A section to easily view a summary report of certain transactions and activities.
