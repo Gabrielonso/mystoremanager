@@ -37,14 +37,14 @@ mystoremanager handles inventory in two categories: the warehouse/wholesale good
 *Warehouse/wholesale goods section*
 - Incoming goods item (purchases/supplies recieved) in cartons are added to the warehouse stock.
 - Outgoing goods item (goods added/moved to the retail section or sales made to customers in cartons) are subtracted from the warehouse/wholesale goods section. 
-- mystoremanager keeps a record of the total inventory of each goods item(in cartons) in the warehouse on a daily basis. This will automatically reset for all goods at the end of the day.
+- mystoremanager keeps a record of the total inventory(ins and out) of each goods item made in the warehouse on daily basis. This will automatically reset for all goods at the end of the day.
 - It also keeps a track record of the total inventory(starting stock, recieved, shipped and current stock) of each goods item in the warehouse from a set datetime.
 This can be reset at anytime for an item, probably when a physical count is made. Then it starts to take stock from that time onwards.
 
 *Retail goods section*
 - Goods item in this category are handled in pieces or units of a carton.
 - Goods can only be added and are subtracted from the warehouse stocks(in cartons) to this section.
-- mystoremanager keeps record of the total inventory (starting stock for the day, ins, outs and current stock) for each item in the retail section only daily basis. This will automatically reset for all at the end of the day.
+- mystoremanager keeps record of the total inventory (starting stock for the day, ins, outs and current stock) for each item in the retail section only on daily basis. This will automatically reset for all at the end of the day.
 The record of any particular item can also be reset at any time and stocks will be taken from that time of the day onwards.
 
 **Purchases**
@@ -54,7 +54,7 @@ The record of any particular item can also be reset at any time and stocks will 
 **Sales**
 - All sales, sales details and records are managed by mystoremanager.
 - Sales invoice can be created, printed and edited.
-- Sales can be made in both cartons and/or in pieces for a customer. Stocks will be subtracted based on category.
+- Sales of an item can be made in both cartons and/or in pieces for a customer. Stocks will be subtracted based on category.
 - An item can be easily searched for by an autocomplete search algorithm when a user starts typing out keywords associated with the required item name.
   A list of item containing the letters you typed in will appear for selection.
   If required item does not appear in the list, it probably does not exist in the record or users can try a different keyword or create new item for record that does not exist.
